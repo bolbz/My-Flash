@@ -1,0 +1,175 @@
+.profile-back {
+  height: 32vh;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+.section-heading {
+  color: rgba(0,0,0,0.25)
+}
+
+.section-content {
+  font-size: 1.2rem
+}
+.profile-bandeau {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQHtnAGgJ8U_bok0uml3FpyOpMfh-cJ31v3aYOROl7ohm5OAb1');
+  height: 240px;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
+}
+.profile-bandeau img{
+  height: 20vh;
+  width: 20vh;
+}
+
+.card-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 1)
+}
+
+.profile-back img {
+  height: 20vh;
+  width: 20vh;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.user-detail {
+  padding-top: 13vh;
+}
+
+.text-title {
+  color: lightgrey;
+  margin-bottom: -2vh
+}
+
+.text-data {
+  font-size: 1.2rem;
+}
+
+.scan-flash {
+  font-size: 2rem;
+}
+
+.limit {
+  max-height: fit-content
+}
+
+.button-general {
+  color: white;
+  background-color: #0073cb;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5vh;
+}
+
+#identity .card-header {
+  border-top: 5px solid #00B5EC;
+  background: rgba(255, 255, 255, 1);
+}
+
+#coordonates .card-header {
+  border-top: 5px solid #32B92D;
+  background: rgba(255, 255, 255, 1);
+}
+
+#socialNetworks .card-header {
+  border-top: 5px solid #8E44AD;
+  background: rgba(255, 255, 255, 1);
+}
+
+#professional .card-header {
+  border-top: 5px solid #C82333;
+  background: rgba(255, 255, 255, 1);
+}
+
+#health .card-header {
+  border-top: 5px solid #00AAA0;
+  background: rgba(255, 255, 255, 1);
+}
+
+#hobbies .card-header {
+  border-top: 5px solid #7B8D8E;
+  background: rgba(255, 255, 255, 1);
+}
+.card-header h6 {
+  display: inline-block;
+}
+
+.card-header a {
+  cursor: pointer;
+}
+
+.photo-container:hover .photo-cache{
+  opacity: 0;
+}
+.textOnPhoto{
+  opacity:0;
+}
+.boutton{
+  position: absolute;
+  z-index: 1;
+  align-items: left;
+}
+
+.textOnPhoto:hover{
+   opacity:1;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1024px){
+  .profile-back img{
+     margin-top: 17vh;
+     pointer-events: "pointed"
+  }
+  .profile-bandeau img {
+     height: 15vh;
+     width: 15vh;
+  }
+  .profile-bandeau :first-child {
+     height: 17vh!important;
+     width: 17vh!important;
+  }
+
+}
+/* ------------------ NAVBAR ---------------------------- */
+
+.photo_cache_rotate{
+  -webkit-animation:spin 20s linear infinite;
+  -moz-animation:spin 20s linear infinite;
+  animation:spin 20s linear infinite;
+}
+.paused{
+animation-play-state: paused;
+-webkit-animation-play-state: paused;
+}
+
+@media only screen and (min-width: 1024px){
+
+  .globalStyle{
+      width: 70%;
+      margin: 0 auto;
+}
+}
+@media only screen and (max-width: 576px){
+  .boutonProfil{
+    position: absolute;
+    z-index: 6;
+  }
+  .ligneBoutonProfil{
+    margin-top: 10vh;
+  }
+  .user-detail{
+    padding-top: 0;
+  }
+}

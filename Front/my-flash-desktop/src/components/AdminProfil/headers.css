@@ -1,0 +1,108 @@
+.sidenav {
+    position: fixed;
+    background: linear-gradient(to right, rgba(15,0,45,.9), rgba(15,0,45,.8)) !important;
+    padding: 4vh;
+    height: 100vh;
+    padding-bottom: 100%;
+  }
+  .content-wrapper {
+    position: relative;
+  }
+  .relative-avi-wrapper {
+    position: relative;
+    height: 25vh;
+    width: 25vh;
+  }
+  .relative-nav-wrapper {
+    position: relative;
+    max-height: 100%;
+    width: 100%;
+  }
+  .avatar {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .avi-border {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: border-spin infinite 10s linear;
+  }
+  .initial {
+    font-size: 6vh;
+    height: 6vh;
+    color: white;
+    font-family: 'Helvetica';
+  }
+  .name {
+    font-size: 4vh;
+    color: white;
+  }
+  @keyframes border-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+
+
+  /*-----------------Partie partenaire ------------------------*/
+
+  .main-container {
+    padding: 3rem;
+    background-color: lightcoral;
+  }
+  
+  .main-heading {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-container {
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .process {
+    background-color: gainsboro;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .process__heading {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+  }
+  
+  .process__details {
+    text-align: center;
+  }
+  
+  .process__upload-btn {
+    display: block;
+    margin: 2.5rem auto;
+    text-align: center;
+  }
+  
+  .process__image {
+    display: block;
+    margin: 0 auto;
+    width: 20vh;
+    height: 20vh;
+  }
+  
+  .main-credit {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+ 
+
+ 

@@ -1,0 +1,32 @@
+.ReturnButton:hover {
+    color: rgb(185, 183, 183);
+    background-color: rgb(0, 95, 0) !important;
+}
+
+.Suscribe:hover{
+    color: rgb(185, 183, 183);
+    background-color: #003e6d !important;
+} 
+.toast-notification {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 5px 5px;
+  background: #fff;
+  font: inherit;
+  padding: 3vh;
+  font-size: 1.7rem;
+  color: #000;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.fadein {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,27 @@
+
+.centering-text-list {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width: 75%
+}
+.centrer{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+ .hover:hover{
+   color:#7AB51D;
+   cursor: pointer;
+ }
+
+@media only screen and (max-width: 576px){
+  .centrer{
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .footerFull{
+    font-size: 1vh;
+  }
+}
