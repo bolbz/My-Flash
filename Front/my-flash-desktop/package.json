@@ -40,7 +40,7 @@
     "redux-thunk": "^2.3.0",
     "save": "^2.3.3",
     "semver": "^5.7.0",
-    "tar": "^4.4.8"
+    "tar": "^4.4.15"
   },
   "scripts": {
     "start": "react-scripts start",
