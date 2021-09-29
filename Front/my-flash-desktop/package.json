@@ -14,7 +14,7 @@
     "classnames": "^2.2.6",
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "jsonwebtoken": "^8.5.1",
     "jwt-decode": "^2.2.0",
     "material-ui": "^0.20.2",
